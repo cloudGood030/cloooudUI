@@ -1,24 +1,26 @@
-# cloud-ui
+# cloooud-ui 组件库
 
-## Project setup
-```
-npm install
-```
+### 快速开始
 
-### Compiles and hot-reloads for development
-```
-npm run serve
+#### 1.安装组件库
+
+```bash
+npm i  cloooud-ui
 ```
 
-### Compiles and minifies for production
-```
-npm run build
+#### 2.引用组件库
+
+```javascript
+// 全部引入
+import 'cloooud-ui/dist/css/index.css';
+import CUI from 'cloooud-ui';
+Vue.use(CUI);
+
+
+//按需引用
+import 'cloooud-ui/dist/css/demo.css';
+import {Demo} from 'cloooud-ui';
+Vue.use(Demo);
 ```
 
-### Lints and fixes files
-```
-npm run lint
-```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
